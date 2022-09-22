@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather finder</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="container">
+        <h1>Weather App</h1>
+        <hr>
+        <div class="inputbox" >
+         <input id="inpt" type="text" placeholder="Enter the city">
+        </div>
+        <div class="btn">
+            <button id="btn" type="submit">Search weather</button>
+        </div>
+        <div class="weatherlist">
+          <img src="img/sun-icon.jpg" alt="">  
+         <p id="state"></p>
+        </div>
+        <hr>
+        <div class="weather-detail">
+         <h2 id="deg"></h2>
+         <hr style="height: 89px; margin-top: -15px;">
+         <h2 id="humi"><Br></h2>
+        </div>
+      
+        
+    </section>
+    <script src="weather.js"></script>
+</body>
+</html>
